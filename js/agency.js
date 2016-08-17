@@ -31,3 +31,7 @@
     })
 
 })(jQuery); // End of use strict
+ 
+$(document).ready(function() {
+  $('.social a').tooltip({placement: "right", container: 'body'});
+});
